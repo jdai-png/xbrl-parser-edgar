@@ -1,5 +1,6 @@
 {
-  "name": "edgar_allen_poe_2",
+  "name": "xbrl-processor",
+  "description": "A comprehensive XBRL processor for SEC filings.",
   "module": "index.ts",
   "type": "module",
   "private": true,
@@ -9,6 +10,9 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "scripts": {
+    "fetch-reports": "bun run src/main.ts"
   },
   "dependencies": {
     "node-html-parser": "^7.0.1",
